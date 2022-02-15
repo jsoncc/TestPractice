@@ -13,8 +13,8 @@ public class PL3_6_6 {
         int cpCount = greeting.codePointCount(0, greeting.length());
         System.out.println(cpCount);
 
-        int index = greeting.offsetByCodePoints(0,4);
+        int index = greeting.offsetByCodePoints(0,1);
         int cp =greeting.codePointAt(index);
-        System.out.println(cp);
+        System.out.println(cp);//输出的是码点，即ASCII码值
     }
 }
